@@ -4,7 +4,9 @@ Show your Unity project in Discord status while you work.
 
 ## Install
 
-<a href="vcc://vpm/addRepo?url=https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json" style="color: blue; text-decoration: underline;">Click here to add to VRChat Creator Companion</a>
+```
+vcc://vpm/addRepo?url=https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json
+``Copy the link above and paste it in your browser to add to VRChat Creator Companion
 
 **Manual:**
 1. Open VRChat Creator Companion
