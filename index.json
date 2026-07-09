@@ -1,7 +1,7 @@
 {
   "name": "Kodex Packages",
   "id": "com.kodex.packages",
-  "url": "https://YOUR_USERNAME.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json",
+  "url": "https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json",
   "author": "Kodex",
   "packages": {
     "com.kodex.discordrichpresence": {
@@ -31,7 +31,7 @@
             "tools"
           ],
           "samples": [],
-          "url": "https://FR_KF_FR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/com.kodex.discordrichpresence-1.0.0.zip"
+          "url": "https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/com.kodex.discordrichpresence-1.0.0.zip"
         }
       }
     }

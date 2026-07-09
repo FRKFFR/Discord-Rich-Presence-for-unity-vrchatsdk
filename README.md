@@ -4,7 +4,7 @@ Show your Unity project in Discord status while you work.
 
 ## Install
 
-[![Add to VCC](https://img.shields.io/badge/Add%20to%20VCC-Install%20Now-blue)](vcc://vpm/addRepo?url=https://FR_KF_FR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json)
+[![Add to VCC](https://img.shields.io/badge/Add%20to%20VCC-Install%20Now-blue)](vcc://vpm/addRepo?url=https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json)
 
 Click the button above to add to VRChat Creator Companion.
 
@@ -12,7 +12,7 @@ Click the button above to add to VRChat Creator Companion.
 
 1. Open VRChat Creator Companion
 2. Settings > VPM Settings
-3. Add this URL: `https://FR_KF_FR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json`
+3. Add this URL: `https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json`
 4. Install "Kodex Discord Rich Presence"
 
 ## Setup
