@@ -5,17 +5,26 @@ Script to create a VPM package zip from the Unity package folder
 
 import os
 import zipfile
+import json
 from pathlib import Path
 
 def create_vpm_package():
     package_folder = Path("Packages/com.kodex.discordrichpresence")
-    output_zip = Path("com.kodex.discordrichpresence-1.0.0.zip")
+    
+    # Read version from package.json
+    package_json_path = package_folder / "package.json"
+    with open(package_json_path, 'r') as f:
+        package_data = json.load(f)
+    version = package_data["version"]
+    
+    output_zip = Path(f"com.kodex.discordrichpresence-{version}.zip")
     
     if not package_folder.exists():
         print(f"Error: Package folder not found: {package_folder}")
         return
     
     print(f"Creating VPM package from {package_folder}...")
+    print(f"Version: {version}")
     
     with zipfile.ZipFile(output_zip, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for root, dirs, files in os.walk(package_folder):
