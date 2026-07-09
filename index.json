@@ -1,0 +1,39 @@
+{
+  "name": "Kodex Packages",
+  "id": "com.kodex.packages",
+  "url": "https://YOUR_USERNAME.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json",
+  "author": "Kodex",
+  "packages": {
+    "com.kodex.discordrichpresence": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.kodex.discordrichpresence",
+          "displayName": "Kodex Discord Rich Presence",
+          "description": "Display Unity project information in Discord Rich Presence",
+          "version": "1.0.0",
+          "unity": "2022.3",
+          "unityRelease": "0f1",
+          "author": {
+            "name": "Kodex",
+            "email": "",
+            "url": ""
+          },
+          "documentationUrl": "",
+          "changelogUrl": "",
+          "licensesUrl": "",
+          "dependencies": {},
+          "vpmDependencies": {},
+          "keywords": [
+            "discord",
+            "rpc",
+            "rich presence",
+            "vrchat",
+            "tools"
+          ],
+          "samples": [],
+          "url": "https://FR_KF_FR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/com.kodex.discordrichpresence-1.0.0.zip"
+        }
+      }
+    }
+  }
+}

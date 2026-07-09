@@ -1,0 +1,26 @@
+{
+  "name": "com.kodex.discordrichpresence",
+  "version": "1.0.0",
+  "displayName": "Kodex Discord Rich Presence",
+  "description": "Display Unity project information in Discord Rich Presence",
+  "author": {
+    "name": "Kodex",
+    "email": "",
+    "url": ""
+  },
+  "unity": "2022.3",
+  "unityRelease": "0f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "dependencies": {},
+  "keywords": [
+    "discord",
+    "rpc",
+    "rich presence",
+    "vrchat",
+    "tools"
+  ],
+  "samples": [],
+  "vpmDependencies": {}
+}
