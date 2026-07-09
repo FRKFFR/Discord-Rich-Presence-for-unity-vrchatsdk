@@ -6,79 +6,36 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
             background: #1a1a1a;
             color: #fff;
         }
         h1 {
             color: #5865F2;
+            margin-bottom: 30px;
         }
         .button {
             display: inline-block;
             background: #5865F2;
             color: white;
-            padding: 15px 30px;
+            padding: 20px 40px;
             text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-            margin: 20px 0;
+            border-radius: 8px;
+            font-size: 24px;
+            font-weight: bold;
         }
         .button:hover {
             background: #4752C4;
         }
-        .section {
-            background: #2d2d2d;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        code {
-            background: #404040;
-            padding: 2px 6px;
-            border-radius: 3px;
-        }
     </style>
 </head>
 <body>
-    <h1>Discord Rich Presence for Unity</h1>
-    <p>Show your Unity project in Discord status while you work.</p>
-    
-    <div class="section">
-        <h2>Install</h2>
-        <a href="vcc://vpm/addRepo?url=https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json" class="button">Add to VRChat Creator Companion</a>
-        
-        <h3>Manual:</h3>
-        <ol>
-            <li>Open VRChat Creator Companion</li>
-            <li>Go to Settings > VPM Settings</li>
-            <li>Add this URL: <code>https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json</code></li>
-            <li>Go to Packages and install "Kodex Discord Rich Presence"</li>
-        </ol>
-    </div>
-    
-    <div class="section">
-        <h2>Setup</h2>
-        <ol>
-            <li>Go to <a href="https://discord.com/developers/applications" target="_blank">Discord Developer Portal</a> and create an application</li>
-            <li>Enable Rich Presence</li>
-            <li>Copy the Application ID</li>
-            <li>In Unity, go to <strong>Kodex Tools > Discord Rich Presence</strong></li>
-            <li>Paste your Application ID</li>
-            <li>Add the DiscordRichPresence component to a GameObject in your scene</li>
-        </ol>
-    </div>
-    
-    <div class="section">
-        <h2>Features</h2>
-        <ul>
-            <li>Shows project name and current scene in Discord</li>
-            <li>Shows Unity version</li>
-            <li>Auto-updates when you change scenes</li>
-            <li>Customizable text and images</li>
-            <li>Works with VRChat projects</li>
-        </ul>
-    </div>
+    <h1>Kodex Discord Rich Presence</h1>
+    <a href="vcc://vpm/addRepo?url=https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json" class="button">Install with VCC</a>
 </body>
 </html>
