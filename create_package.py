@@ -21,7 +21,7 @@ def create_vpm_package():
         for root, dirs, files in os.walk(package_folder):
             for file in files:
                 file_path = Path(root) / file
-                arcname = file_path.relative_to(package_folder.parent.parent)
+                arcname = file_path.relative_to(package_folder)
                 zipf.write(file_path, arcname)
                 print(f"Added: {arcname}")
     
