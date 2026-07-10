@@ -1,6 +1,6 @@
 # Discord Rich Presence for Unity
 
-Show your Unity project in Discord status while you work.
+Show your Unity project in Discord status while you work because why not? :3
 
 <div align=center>
 
@@ -14,13 +14,14 @@ Show your Unity project in Discord status while you work.
 3. Add this URL: `https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/index.json`
 4. Go to Packages and install "Kodex Discord Rich Presence"
 
-## Setup
+## Setup (Optional)
 
-1. Go to [Discord Developer Portal](https://discord.com/developers/applications) and create an application
-2. Enable Rich Presence
-3. Copy the Application ID
-4. In Unity, go to **Kodex Tools > Discord Rich Presence**
-5. Paste your Application ID
+The package comes with pre-configured default settings and will work automatically after installation. Customization is optional. :3
+
+To customize settings:
+1. In Unity, go to **Kodex Tools > Discord Rich Presence**
+2. Configure your Discord Application ID, templates, and images
+3. To use your own Discord Application, create one at [Discord Developer Portal](https://discord.com/developers/applications) and enable Rich Presence
 
 ## Features
 
