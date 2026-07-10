@@ -51,9 +51,9 @@ namespace Kodex.DiscordRichPresence
             }
             
             // Periodic updates
-            if (EditorApplication.timeSinceStartup >= nextUpdateTime)
+            if ((float)EditorApplication.timeSinceStartup >= nextUpdateTime)
             {
-                nextUpdateTime = EditorApplication.timeSinceStartup + updateInterval;
+                nextUpdateTime = (float)EditorApplication.timeSinceStartup + updateInterval;
                 UpdatePresence();
             }
         }
@@ -99,7 +99,7 @@ namespace Kodex.DiscordRichPresence
             
             client.Initialize();
             
-            nextUpdateTime = EditorApplication.timeSinceStartup + updateInterval;
+            nextUpdateTime = (float)EditorApplication.timeSinceStartup + updateInterval;
         }
         
         private static void UpdatePresence()
@@ -148,7 +148,7 @@ namespace Kodex.DiscordRichPresence
             if (settings != null)
             {
                 clientId = settings.clientId;
-                enabled = settings.enabled;
+                enabled = settings.enableOnStart;
                 updateInterval = settings.updateInterval;
                 detailsTemplate = settings.detailsTemplate;
                 stateTemplate = settings.stateTemplate;

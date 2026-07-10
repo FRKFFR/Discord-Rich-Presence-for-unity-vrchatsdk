@@ -1,6 +1,6 @@
 {
   "name": "com.kodex.discordrichpresence",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "displayName": "Kodex Discord Rich Presence",
   "description": "Display Unity project information in Discord Rich Presence",
   "author": {
