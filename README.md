@@ -2,9 +2,11 @@
 
 Show your Unity project in Discord status while you work.
 
-## Install
+<div align=center>
 
-<a href="https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/" style="display: inline-block; background: #5865F2; color: white; padding: 20px 40px; text-decoration: none; border-radius: 8px; font-size: 24px; font-weight: bold;">Install with VCC</a>
+# [📦 Install with VCC](https://FRKFFR.github.io/Discord-Rich-Presence-for-unity-vrchatsdk/)
+
+</div>
 
 **Manual:**
 1. Open VRChat Creator Companion
@@ -19,7 +21,6 @@ Show your Unity project in Discord status while you work.
 3. Copy the Application ID
 4. In Unity, go to **Kodex Tools > Discord Rich Presence**
 5. Paste your Application ID
-6. Add the DiscordRichPresence component to a GameObject in your scene
 
 ## Features
 
