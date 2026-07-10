@@ -1,15 +1,15 @@
 {
     "name": "com.kodex.discordrichpresence.Editor",
-    "references": [
-        "com.kodex.discordrichpresence.Runtime"
-    ],
+    "references": [],
     "includePlatforms": [
         "Editor"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
-    "precompiledReferences": [],
+    "precompiledReferences": [
+        "DiscordRPC.dll"
+    ],
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],

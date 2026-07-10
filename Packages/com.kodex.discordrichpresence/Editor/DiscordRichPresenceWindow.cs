@@ -56,6 +56,7 @@ namespace Kodex.DiscordRichPresence
             {
                 settings.clientId = newClientId;
                 settings.Save();
+                DiscordRichPresenceEditor.ReloadSettings();
             }
             
             if (string.IsNullOrEmpty(settings.clientId) || settings.clientId == "YOUR_DISCORD_APPLICATION_ID")
@@ -176,7 +177,7 @@ namespace Kodex.DiscordRichPresence
             EditorGUILayout.Space(10);
             
             // Info
-            EditorGUILayout.HelpBox("Add DiscordRichPresence component to a GameObject in your scene to enable Discord Rich Presence.", MessageType.Info);
+            EditorGUILayout.HelpBox("Discord Rich Presence runs automatically in the Unity Editor. Configure settings above.", MessageType.Info);
             
             EditorGUILayout.EndScrollView();
         }
