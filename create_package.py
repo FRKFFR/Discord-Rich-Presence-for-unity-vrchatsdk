@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 def create_vpm_package():
-    package_folder = Path("Packages/com.kodex.discordrichpresence")
+    package_folder = Path("package/com.kodex.discordrichpresence")
     
     # Read version from package.json
     package_json_path = package_folder / "package.json"

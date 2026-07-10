@@ -5,17 +5,17 @@ namespace Kodex.DiscordRichPresence
     public class DiscordRichPresenceSettings : ScriptableObject
     {
         [Header("Discord Settings")]
-        public string clientId = "YOUR_DISCORD_APPLICATION_ID";
+        public string clientId = "1524073622950514800";
         public bool enableOnStart = true;
-        public float updateInterval = 15f;
+        public float updateInterval = 5f;
         
         [Header("Display Templates")]
         public string detailsTemplate = "Working on {projectName}";
         public string stateTemplate = "Scene: {sceneName}";
-        public string largeImageKey = "";
+        public string largeImageKey = "unitywhite";
         public string largeImageText = "Unity Editor";
-        public string smallImageKey = "";
-        public string smallImageText = "";
+        public string smallImageKey = "unity";
+        public string smallImageText = "Unity {unityVersion}";
         
         private static DiscordRichPresenceSettings instance;
         

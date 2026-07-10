@@ -10,16 +10,16 @@ namespace Kodex.DiscordRichPresence
         private static DiscordRpcClient client;
         private static RichPresence presence;
         
-        private static string clientId = "YOUR_DISCORD_APPLICATION_ID";
+        private static string clientId = "1524073622950514800";
         private static bool enabled = true;
-        private static float updateInterval = 15f;
+        private static float updateInterval = 5f;
         
         private static string detailsTemplate = "Working on {projectName}";
         private static string stateTemplate = "Scene: {sceneName}";
-        private static string largeImageKey = "";
+        private static string largeImageKey = "unitywhite";
         private static string largeImageText = "Unity Editor";
-        private static string smallImageKey = "";
-        private static string smallImageText = "";
+        private static string smallImageKey = "unity";
+        private static string smallImageText = "Unity {unityVersion}";
         
         private static float nextUpdateTime;
         private static string currentScene;
