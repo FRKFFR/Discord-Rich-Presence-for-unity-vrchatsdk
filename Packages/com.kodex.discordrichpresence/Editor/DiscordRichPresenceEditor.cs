@@ -117,15 +117,22 @@ namespace Kodex.DiscordRichPresence
             {
                 presence.Assets.LargeImageKey = largeImageKey;
                 presence.Assets.LargeImageText = FormatTemplate(largeImageText);
+                Debug.Log($"[Discord Rich Presence] Large Image: Key='{largeImageKey}', Text='{FormatTemplate(largeImageText)}'");
             }
             
             if (!string.IsNullOrEmpty(smallImageKey))
             {
                 presence.Assets.SmallImageKey = smallImageKey;
                 presence.Assets.SmallImageText = FormatTemplate(smallImageText);
+                Debug.Log($"[Discord Rich Presence] Small Image: Key='{smallImageKey}', Text='{FormatTemplate(smallImageText)}'");
+            }
+            else
+            {
+                Debug.Log("[Discord Rich Presence] Small Image Key is empty, small image will not be displayed");
             }
             
             client.SetPresence(presence);
+            Debug.Log($"[Discord Rich Presence] Updated presence: Details='{FormatTemplate(detailsTemplate)}', State='{FormatTemplate(stateTemplate)}'");
         }
         
         private static string FormatTemplate(string template)
